@@ -7,11 +7,11 @@ int main()
 	printf("second day hours=12\n");
 	printf("what is your wage?");
     scanf("%f",&wage);
-	printf("how much are the bus expenses?");
+	printf("how much are the bus expenses per day?");
 	scanf("%f",&bus);
 	totalhours=hoursA+hoursB;    
 	payment=totalhours*wage;
-	salary=payment+bus;
+	salary=payment+bus+bus;
 	printf("your payment is:%g\n",payment);
 	printf("your bus expenses are:%g\n",bus);
 	printf("your total salary is:%g",salary);
