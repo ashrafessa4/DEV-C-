@@ -1,9 +1,19 @@
 #include <stdio.h>
-int main()
+int main()             	
 {
-	int Items=5;
-	float Price=3.5,Payment;
-	printf("items=%d\nprice=%0.1f\npayment=%0.1f",Items,Price,Payment);
-    Payment=Items*Price;
-	printf("\npayment equals= %0.1f",Payment);
+	int hoursA=8,hoursB=12,totalhours;
+	float wage,bus,payment,salary,bustotal;
+    printf("first day hours=8\n");
+	printf("second day hours=12\n");
+	printf("what is your wage?");
+    scanf("%f",&wage);
+	printf("how much are the bus expenses per day?");
+	scanf("%f",&bus);
+	totalhours=hoursA+hoursB;    
+	payment=totalhours*wage;
+	bustotal=bus*2;
+	salary=payment+bus;
+	printf("your payment is:%g\n",payment);
+	printf("your bus expenses are:%g\n",bustotal);
+	printf("your total salary is:%g",salary);
 }
