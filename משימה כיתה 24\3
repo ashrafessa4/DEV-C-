@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+	int Items=5;
+	float Price=3.5,Payment;
+	printf("items=%d\nprice=%0.1f\npayment=%0.1f",Items,Price,Payment);
+    Payment=Items*Price;
+	printf("\npayment equals= %0.1f",Payment);
+}
