@@ -4,7 +4,7 @@ int main()
 	int hoursA=8,hoursB=12,totalhours;
 	float wage,bus,payment,salary;
     printf("first day hours=8\n");
-	printf("first day hours=12\n");
+	printf("second day hours=12\n");
 	printf("what is your wage?");
     scanf("%f",&wage);
 	printf("how much are the bus expenses?");
